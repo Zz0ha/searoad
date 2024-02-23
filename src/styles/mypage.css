@@ -1,0 +1,112 @@
+.myPageIndexWrap {
+  display: flex;
+  padding: 70px 0;
+}
+
+.myPageSideMenuBar {
+}
+.myPageSideMenuBar h3 {
+}
+.myPageSideMenuBar .sideBarBanner {
+  padding: 40px 0;
+}
+.myPageSideMenuBar .menuList {
+  width: 200px;
+  border: 1px solid #999999;
+  font-size: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.myPageSideMenuBar .menuList li:not(.menuList li:last-child) {
+  border-bottom: 1px solid #999999;
+}
+.myPageSideMenuBar .menuList li {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.myPageRightContents {
+  flex: 1;
+  padding-left: 80px;
+}
+
+/* myPageTopMenuBar */
+.myPageTopMenuBar {
+}
+.myPageTopMenuBar ul {
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.25);
+  padding: 23px 0;
+}
+.myPageTopMenuBar ul li {
+  border-right: 2px solid #ffffff;
+  width: 25%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.myPageTopMenuBar ul li p {
+  font-size: 15px;
+}
+.myPageTopMenuBar ul li span {
+  font-size: 14px;
+  color: #1c53c7;
+}
+.myPageTopMenuBar ul li .myPageUserInfo p {
+  font-size: 18px;
+}
+
+/* myPage Contents */
+.myPageContents {
+  font-size: 24px;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 25px;
+}
+
+/* MyPage - OrderItems - OrderItemCard */
+.orderItemCardWrap {
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.orderItemCardWrap ul {
+  padding-left: 32px;
+  font-size: 14px;
+}
+
+/* MyPage - MyReview */
+.myReviewWrap {
+  padding: 25px 0;
+}
+
+/* MyPage - ReconfirmPassword Components */
+.reconfirmPWWrap {
+}
+.reconfirmPWWrap h4 {
+  font-size: 18px;
+  padding: 50px 0 20px 0;
+}
+.reconfirmPWWrap ul {
+  font-size: 13px;
+  color: #333333;
+}
+.reLoginWrapBorder {
+  border-top: 1px solid #1c53c7;
+  border-bottom: 1px solid #1c53c7;
+  margin-bottom: 38px;
+  margin-top: 30px;
+}
+.reconfirmPWWrap button {
+  width: 250px;
+  height: 50px;
+  background-color: #1c53c7;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}

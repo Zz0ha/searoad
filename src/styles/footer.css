@@ -1,0 +1,41 @@
+.footer {
+  width: 100%;
+  margin-top: 100px;
+}
+.footer.noMarginTop {
+  margin-top: 0;
+}
+.footer .footerTopWrap {
+  background: #dadada;
+}
+.footer .footerTop {
+  width: 100%;
+  display: flex;
+  padding: 18px 0;
+  font-size: 14px;
+  justify-content: space-between;
+  color: #333333;
+}
+.footer .footerTop .footerLink ul {
+  display: flex;
+  gap: 50px;
+}
+.footer .footerTop .footerSNSIcon ul {
+  display: flex;
+  gap: 15px;
+}
+
+.footer .footerBottomWrap {
+}
+.footer .footerBottomWrap .footerBottom {
+  color: #666666;
+  font-size: 14px;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+.footer .footerBottomWrap .footerBottom .footerContents p {
+  margin-top: 24px;
+  color: #999999;
+}

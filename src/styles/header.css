@@ -1,0 +1,168 @@
+/* header_user */
+.header .header_user {
+  padding: 10px 0;
+}
+.header .header_user ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+/* header_center */
+.header .header_center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.header .allMenuSearchBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header .allMenuSearchBar > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .allMenuSearchBar > a p {
+  font-size: 12px;
+  color: #1c53c7;;
+}
+.header .allMenuSearchBar > a > svg{
+  font-size: 30px;
+  height: 100%;
+  color: #1c53c7;;
+}
+.searchBarWrap {
+  position: relative;
+}
+
+.header .header_center .searchBar {
+  width: 580px;
+  padding: 10px 15px;
+  border: 1px solid #1c53c7;
+  border-radius: 50px;
+  position: relative;
+}
+.header .header_center .searchBar input {
+  width: 95%;
+}
+.header .header_center .searchBar .searchIcon {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  font-size: 24px;
+  color: #1c53c7;
+}
+.header_center_Icons ul {
+  display: flex;
+  gap: 8px;
+}
+
+/* header_category */
+.header_category {
+  width: 100%;
+  height: 44px;
+  position: relative;
+}
+.header_category > ul {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.header_category > ul > li {
+  display: flex;
+  min-width: 120px;
+  flex-basis: 120px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.header_category > ul > li > .menuCategory > p {
+  line-height: 44px;
+}
+.header_category > ul .onlyOneDay {
+  color: #ed0505;
+}
+.header_category > ul .hamburgerMenuHover:hover .dropdownMenu {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  z-index: 1000;
+  background: #fff;
+  height: 480px;
+}
+.hamburgerMenuButton {
+  font-size: 26px;
+}
+
+/* dropdownMenu */
+.dropdownMenu {
+  display: none;
+}
+.mainMenuCategory {
+  display: flex;
+  flex-direction: column;
+  min-width: 170px;
+}
+.mainMenuCategory > li {
+  display: flex;
+  padding: 10px;
+  height: 40px;
+}
+.menuCategory {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.menuCategory img {
+  width: 24px;
+}
+.menuCategory p {
+  font-size: 16px;
+}
+.subMenuCategory > ul {
+  display: flex;
+  flex-direction: column;
+  min-width: 170px;
+  background: #fafafa;
+  height: 480px;
+}
+.subMenuCategory > ul > li {
+  display: flex;
+  flex-wrap: wrap;
+  height: 40px;
+  padding: 10px;
+}
+
+.inMenuImgWrap {
+  flex: 1;
+  display: flex;
+  margin: auto;
+  max-width: 500px;
+  max-height: 440px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.header-cartCount-wrapper {
+  position: relative;
+}
+
+.header-cartCount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ed0505;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

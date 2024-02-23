@@ -1,0 +1,169 @@
+/* 로그인페이지 */
+.loginPage {
+  padding: 60px 0 100px 0;
+}
+.loginPage .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginForm form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 0 60px 0;
+}
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #eeeeee;
+}
+
+.findAuthWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.findAuth a:nth-child(1) {
+  padding-right: 10px;
+}
+.findAuth a:nth-child(2) {
+  padding-left: 10px;
+}
+.findId {
+  position: relative;
+}
+.findId::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 1px;
+  background: #999999;
+  height: 100%;
+}
+.loginButton {
+  width: 100%;
+  height: 50px;
+  background-color: #1c53c7;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+.accountButton {
+  width: 100%;
+  height: 50px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+  color: #1c53c7;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #eeeeee;
+}
+.easyLogin p {
+  text-align: center;
+  color: #666666;
+  margin-bottom: 20px;
+}
+.easyLoginIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* findId page */
+.findIdSection {
+}
+.findIdSection .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.findIdSection .findIdBox {
+  width: 400px;
+  padding: 60px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.findIdSection .findIdBox .findTabButton {
+  width: 100%;
+}
+.findIdSection .findIdBox .findTabButton ul {
+  display: flex;
+  padding: 40px 0;
+}
+.findIdSection .findIdBox .findTabButton ul li {
+  width: 50%;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px solid #1c53c7;
+  text-align: center;
+  color: #1c53c7;
+  cursor: pointer;
+}
+.findIdSection .findIdBox .findTabButton ul li.active {
+  border: 1px solid #1c53c7;
+  border-bottom: 0px;
+}
+
+.findIdSection .findIdForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.findIdSection .findIdForm input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  background-color: #eeeeee;
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.findIdForm .verificationCode {
+  display: flex;
+  gap: 20px;
+}
+.findIdForm .verificationCode .resendButton {
+  width: 30%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #eeeeee;
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-size: 15px;
+  color: #666666;
+}
+.findIdSection .findIdForm .confirmButton {
+  width: 100%;
+  height: 50px;
+  background-color: #1c53c7;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+.findIdSection .buttonBox {
+  display: flex;
+  align-items: center;
+  padding: 45px 0;
+}
+.findIdSection .buttonBox a:first-child {
+  position: relative;
+  padding-right: 10px;
+}
+.findIdSection .buttonBox a:last-child {
+  padding-left: 10px;
+}
+.findIdSection .buttonBox a:first-child::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: #999999;
+  height: 100%;
+  left: 100%;
+}

@@ -1,0 +1,115 @@
+/* main banner */
+.mainBanner {
+  width: 100%;
+  background: #88c9ff;
+}
+.mainBanner .allSwiperWrap {
+  position: relative;
+}
+.mainBannerImage {
+  line-height: 0;
+}
+.mainBanner .allSwiperWrap .banner-swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: -6%;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+}
+.mainBanner .allSwiperWrap .banner-swiper-button-next {
+  position: absolute;
+  top: 50%;
+  right: -6%;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+}
+
+/* mainProductBest10 */
+.mainProductBest10 {
+  padding: 50px 0;
+}
+.mainProductBest10 h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mainProductBest10 .mainProductBest10TabButton {
+}
+.mainProductBest10 .mainProductBest10TabButton ul {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+}
+.mainProductBest10Product {
+  padding: 40px 0;
+}
+.mainProductBest10Product .moreButton {
+  text-align: right;
+}
+.mainProductBest10Product .moreButton img {
+  width: 50px;
+}
+
+/* mainLowestProduct */
+.mainLowestProduct {
+  padding: 50px 0 100px 0;
+}
+
+/* swiper css custom */
+.mainLowestProduct .allSwiperWrap {
+  position: relative;
+}
+.mainLowestProduct .swiper-button-prev {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: -2%;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #c5c5c5;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: #949494;
+}
+.mainLowestProduct .swiper-button-prev::after {
+  font-size: 30px;
+  transform: translateX(-2px);
+}
+.mainLowestProduct .swiper-button-next {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  right: -2%;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #c5c5c5;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: #949494;
+}
+.mainLowestProduct .swiper-button-next::after {
+  font-size: 30px;
+  transform: translateX(2px);
+}
+.mainLowestProduct .swiper-pagination {
+  position: absolute;
+  bottom: -30px !important;
+}
+/* mainSubBanner */
+.mainSubBanner {
+  width: 100%;
+  background: #c1deef;
+}
+.mainSubBanner .mainBannerImage {
+  line-height: 0;
+}
+
+
+/* main -> productList */
+.productsListPage {
+  padding: 100px 0;
+}

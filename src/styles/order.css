@@ -1,0 +1,120 @@
+.orderPage {
+  padding: 60px 0;
+}
+.orderPage h2 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+/* order global */
+.orderSection {
+  padding: 40px 0;
+}
+.orderSection h4 {
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #333333;
+}
+
+/* orderer */
+.orderer {
+}
+.orderer ul,
+.shippingInfo ul,
+.discount ul {
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 15px;
+  color: #333333;
+}
+.orderer ul li,
+.shippingInfo ul li,
+.discount ul li {
+  display: flex;
+  align-items: center;
+}
+.orderer ul li > p,
+.shippingInfo ul li > p,
+.discount ul li > p {
+  width: 200px;
+}
+
+/* discount */
+.discount ul li {
+    padding-bottom: 24px;
+    border-bottom: 2px solid #eeeeee;
+  }
+/* payment */
+.payment {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.paymentInfo {
+  flex: 1;
+}
+
+.paymentMethodWrap {
+  display: flex;
+  padding: 24px 0;
+  border-bottom: 2px solid #eeeeee;
+}
+.paymentMethodWrap > p {
+  width: 200px;
+}
+.paymentMethodWrap .paymentMethod {
+  width: 470px;
+}
+.paymentMethodWrap .paymentMethod > div {
+  border: 1px solid #1c53c7;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #1c53c7;
+}
+.paymentMethodWrap .paymentMethod ul {
+  display: flex;
+  justify-content: space-between;
+}
+.paymentMethodWrap .paymentMethod ul > li {
+  width: 150px;
+  text-align: center;
+  padding: 10px 0;
+}
+.paymentMethodWrap .paymentMethod ul > li:nth-child(1) {
+  background: #1c53c7;
+  color: #fff;
+}
+.paymentMethodWrap .paymentMethod ul > li:nth-child(2) {
+  background: #fee500;
+  color: #333333;
+}
+.paymentMethodWrap .paymentMethod ul > li:nth-child(3) {
+  background: #00c73c;
+  color: #fff;
+}
+.paymentCheckBox {
+  padding: 24px;
+}
+.paymentAllCheckBox {
+  margin-bottom: 12px;
+}
+.allAgreeCheckBox {
+  font-size: 18px;
+}
+.allAgreeCheckBox span {
+  color: #1c53c7;
+  font-weight: bold;
+}
+.paymentEssential {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+}

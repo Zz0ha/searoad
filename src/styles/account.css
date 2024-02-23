@@ -1,0 +1,254 @@
+.accountPage {
+}
+.accountPage .container {
+}
+.accountPage h1 {
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+
+.accountForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.accountForm form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #1c53c7;
+  border-bottom: 1px solid #999999;
+  position: relative;
+  width: 700px;
+}
+.accountForm form > span {
+  font-size: 12px;
+  color: #666666;
+  position: absolute;
+  top: -2%;
+  right: 0;
+}
+.accountForm form > ul {
+  padding: 40px 0;
+}
+.accountForm form > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 0;
+}
+.userInfoLabel {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  height: 35px;
+  font-size: 16px;
+}
+.accountForm form ul li .userInfoInputState {
+}
+.accountForm form ul li .userInfoInputState .userInfoNameInput {
+  display: flex;
+  width: 400px;
+  gap: 15px;
+}
+.accountForm form ul li .userInfoInputState .userInfoInputBox {
+  width: 400px;
+  height: 35px;
+  border-bottom: 1px solid #333333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+  .accountForm
+  form
+  ul
+  li
+  .userInfoInputState
+  .userInfoInputBox
+  input {
+  width: 100%;
+}
+
+  .accountForm
+  form
+  ul
+  li
+  .userInfoInputState
+  .userInfoInputResult
+  p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.accountPage
+  .accountForm
+  form
+  ul
+  li
+  .userInfoInputState
+  .userInfoInputResult.error
+  p {
+  color: #ed0505;
+}
+.identificationResultWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.identificationResultWrap p {
+  font-size: 15px;
+}
+.identificationButton {
+  padding: 7px 22px;
+  border: 1px solid #1c53c7;
+  width: 100px;
+  font-size: 15px;
+  color: #1c53c7;
+  margin: 10px 0;
+}
+.identificationButton[disabled] {
+  color: #999999;
+  border: 1px solid #999999;
+  cursor: auto;
+}
+.identificationConfirmButton[disabled] {
+  color: #999999;
+  border: 1px solid #999999;
+  cursor: auto;
+}
+.identificationConfirmButton {
+  padding: 7px 8px;
+  border: 1px solid #1c53c7;
+  width: 100px;
+  font-size: 15px;
+  color: #1c53c7;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* 이용약관동의 */
+.agreeCheckListWrap {
+  padding: 40px 0;
+}
+.agreeCheckList {
+  display: flex;
+}
+.agreeCheckWrap {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.agreeCheckWrap .agreeCheckAll {
+}
+.agreeCheckWrap li {
+}
+.agreeCheckWrap .agreeCheckAll label p {
+  font-size: 12px;
+  color: #333333;
+}
+.includeViewButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.view {
+  font-size: 13px;
+  color: #1c53c7;
+  display: block;
+}
+.advertisingCheck {
+  width: 100%;
+}
+.advertisingCheckMedia {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 0 30px;
+}
+.advertisingCheckMedia > div {
+  margin-top: 20px;
+}
+.joinButton {
+  width: 260px;
+  height: 55px;
+  background-color: #1c53c7;
+  color: #fff;
+  text-align: center;
+  line-height: 55px;
+}
+.joinButton[disabled] {
+  color: #999999;
+  border: 1px solid #999999;
+  background: none;
+  cursor: auto;
+}
+
+/* 가입 완료 모달창 */
+.modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.completedModal {
+  width: 420px;
+  height: 420px;
+  background: #fff;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.completedModal ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.completedModal ul li:nth-child(1) {
+  font-size: 28px;
+}
+.completedModal ul li:nth-child(1) span {
+  color: #1c53c7;
+}
+.completedModal ul li:nth-child(2) {
+  font-size: 22px;
+}
+.completedModal ul li:nth-child(2) .welcomeUser {
+  margin: 25px 0 10px 0;
+}
+.completedModal ul li:nth-child(2) span {
+  font-size: 22px;
+}
+.completedModal ul li:nth-child(2) .welcomeSearoad {
+  font-size: 18px;
+}
+.completedModal ul li:nth-child(2) .welcomeSearoad span {
+  color: #1c53c7;
+}
+.completedModal button {
+  width: 380px;
+  height: 55px;
+  background-color: #1c53c7;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+.changeMyInfo form {
+  border: none
+}

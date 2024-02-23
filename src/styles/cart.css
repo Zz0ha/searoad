@@ -1,0 +1,77 @@
+.cartPage {
+  padding: 60px 0;
+}
+.cartPage h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.cartContainer {
+  width: 1184px;
+  margin: 0 auto;
+}
+.shoppingCartCheckWrap {
+
+}
+.shoppingCartCheckWrap > ul {
+  border-bottom: 1px solid #333333;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 20px;
+  padding: 24px 0;
+}
+.shoppingCartContents {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+
+}
+.shoppingCartContents .CartCheckWrap {
+}
+/* shippingAddressModal */
+.shippingAddressWrap {
+  padding-top: 10px;
+}
+.shippingAddressWrap input:first-child {
+  width: 85%;
+}
+.shippingAddressWrap .shippingAddress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shippingAddress > div {
+  color: #fff;
+  padding: 5px;
+  background-color: #1c53c7;
+  font-size: 14px;
+}
+
+.shippingAddressWrap ul {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.shippingAddressWrap ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.shippingAddressWrap ul li input {
+  border: 1px solid #444444;
+  width: 100%;
+  padding: 10px;
+}
+.shippingAddressWrap label {
+  font-size: 14px;
+}
+.shippingAddressWrap button {
+  width: 100%;
+  background-color: #1c53c7;
+  text-align: center;
+  padding: 8px;
+  color: #fff;
+  margin-top: 10px;
+}

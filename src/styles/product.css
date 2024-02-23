@@ -1,0 +1,100 @@
+.swiper-slide {
+  opacity:0.2;
+  transition:opacity 0.3s;
+}
+.swiper-slide-active,
+.swiper-slide-active + .swiper-slide,
+.swiper-slide-active + .swiper-slide + .swiper-slide,
+.swiper-slide-active + .swiper-slide + .swiper-slide + .swiper-slide,
+.swiper-slide-active + .swiper-slide + .swiper-slide + .swiper-slide + .swiper-slide {
+  opacity:1;
+}
+.mainProductBest10Product .swiper-wrapper {
+  padding: 10px 0 !important;
+}
+.swiperWrap {
+  padding: 13px 9px !important;
+}
+.productCard {
+  width: 253px;
+  height: 360px;
+  position: relative;
+  border-radius: 10px 10px;
+  box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 20px -3px rgba(94,104,121,0.3);
+  overflow: hidden;
+}
+.productCard .productCardImg {
+  height: 255px;
+  width: 100%;
+  display: flex;
+}
+.productCard .productCardImg img {
+  width: 100%;
+}
+.productCard .productCardText {
+  border-top: 1px solid #e9e9e9;
+  padding: 10px 5px;
+  margin: 0 5px;
+}
+.productCard .productCardText span {
+  font-size: 13px;
+  color: #979797;
+}
+.productCard .productCardText .productName {
+  margin-bottom: 15px;
+}
+.productCard .productCardText .productName p {
+  font-size: 15px;
+}
+.productCard .productCardText .productPrice {
+  margin-bottom: 15px;
+}
+.productCard .productCardText .productPrice span {
+  text-decoration: line-through;
+}
+.productCard .productCardText .productPrice p {
+  font-weight: bold;
+  font-size: 18px;
+}
+.productCardOrderIcons {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* ***************************************************** productLowest */
+.productCardLowest {
+  border: 1px solid #e9e9e9;
+  position: relative;
+}
+.productCardLowest .productCardImg img {
+  border-bottom: 1px solid #e9e9e9;
+  width: 100%;
+}
+.productCardLowest .productCardText {
+  padding: 10px;
+}
+.productCardLowest .productCardText span {
+  font-size: 13px;
+  color: #979797;
+}
+.productCardLowest .productCardText .productName {
+  margin-bottom: 15px;
+}
+.productCardLowest .productCardText .productName p {
+  font-size: 15px;
+}
+.productCardLowest .productCardText .productPrice {
+  margin-bottom: 15px;
+}
+.productCardLowest .productCardText .productPrice span {
+  color: #1c53c7;
+  font-size: 20px;
+  font-weight: bold;
+}
+.productCardLowest .productCardText .productPrice p {
+  font-weight: bold;
+  font-size: 18px;
+}

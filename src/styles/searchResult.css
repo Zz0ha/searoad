@@ -1,0 +1,90 @@
+/* searchResultPage */
+.searchResultPage {
+  padding: 100px 0;
+}
+.searchResultPage .searchResultKeyword {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.searchResultPage .searchResultKeyword span {
+  color: #1c53c7;
+}
+.searchResultPage .searchResultKeyword > p {
+  font-size: 36px;
+}
+.searchResultPage .searchResultKeyword > small {
+  font-size: 15px;
+}
+.searchResultPage .organicKeyword {
+  display: flex;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 15px 30px;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.searchResultPage .organicKeyword > ul {
+  display: flex;
+  gap: 30px;
+}
+/* SideCategoryFilter */
+.sideCategoryFilterWrap {
+  width: 210px;
+  border-top: 1px solid #eeeeee;
+}
+.sideCategory {
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+.sideCategory > p {
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+.sideCategory > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.sideCategory > ul > p {
+  font-size: 14px;
+}
+.sideCategory > ul > li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceFilterInput {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.priceFilterInput input {
+  width: 40%;
+}
+
+/* searchResultContents */
+.searchResultContents {
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.searchResultProduct {
+  flex: 1;
+  padding-left: 20px;
+}
+.searchResultProduct .searchResultProductGridWrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.searchResultProduct .searchResultFilterTabmenu {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 50px;
+}
+
+.pagination {
+  text-align: center;
+}

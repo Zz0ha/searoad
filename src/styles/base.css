@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #333333;
+  /* word-break: keep-all; */
+  overflow-y: scroll;
+}
+a,
+a:focus,
+:hover,
+:visited,
+:link,
+:active {
+  text-decoration: none;
+  color: unset;
+}
+ul {
+  padding: 0;
+  padding-block-start: 0;
+  padding-block-end: 0;
+  margin-block-end: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+.full-width {
+  width: 100%;
+}
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+  font-size: inherit;
+}
+
+/* input */
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="tel"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+input:focus {
+  outline: none;
+}
+
+input[type="checkbox"].checkbox_16size + label {
+  line-height: 1.2;
+  padding-left: 26px;
+  display: inline-block;
+  cursor: pointer;
+  width: inherit;
+  height: 16px;
+  background: url("https://searoad-s-cdn.s3.ap-northeast-2.amazonaws.com/icons/checkBox_unCheck_16size.png")
+    no-repeat 0 0px / contain;
+}
+input[type="checkbox"]:checked.checkbox_16size + label {
+  background: url("https://searoad-s-cdn.s3.ap-northeast-2.amazonaws.com/icons/checkBox_check_16size.png")
+    no-repeat 0 0px / contain;
+}
+input[type="checkbox"].checkbox_16size {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  line-height: 1.5;
+  padding-left: 26px;
+  display: inline-block;
+  cursor: pointer;
+  width: inherit;
+  height: 20px;
+  background: url("https://searoad-s-cdn.s3.ap-northeast-2.amazonaws.com/icons/checkBox_unCheck.png")
+    no-repeat 0 0px / contain;
+}
+input[type="checkbox"]:checked + label {
+  background: url("https://searoad-s-cdn.s3.ap-northeast-2.amazonaws.com/icons/checkBox_check.png")
+    no-repeat 0 0px / contain;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
